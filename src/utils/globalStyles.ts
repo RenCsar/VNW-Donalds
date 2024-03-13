@@ -1,11 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
 
-export const flexCenter = `
-display: flex;
-justify-content: center;
-align-items: center;
-`;
-
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -48,8 +42,8 @@ ol li {
 
   --font-family-primary: 'inter', sans-serif;
   --font-color-primary: var(--preto);
-  --font-color-secondary: var(--amarelo);
-  --font-color-text: var(--mostarda);
+  --font-color-secondary: var(--vermelho);
+  --font-color-text: var(--branco);
 
   --btn-font-color: var(--preto);
   --btn-font-color-hover: var(--branco);
@@ -81,6 +75,12 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--branco);
 } 
+`;
+
+export const flexCenter = `
+display: flex;
+justify-content: center;
+align-items: center;
 `;
 
 export const HeaderFooterShared = styled.div`
