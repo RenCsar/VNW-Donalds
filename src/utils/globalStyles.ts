@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const flexCenter = `
 display: flex;
@@ -85,6 +85,16 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--branco);
 } 
+`;
+
+export const HeaderFooterShared = styled.div`
+  width: 100%;
+  height: 60px;
+  padding-inline: var(--padding-lateral);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
 `;
 
 export default GlobalStyle;

@@ -1,8 +1,8 @@
-const FooterButton = () => {
+const FooterButton = ({img}: {img: string}) => {
     return (
-        <div>
-
-        </div>
+        <>
+            <img src={img} alt="imagem-button" />
+        </>
     )
 }
 

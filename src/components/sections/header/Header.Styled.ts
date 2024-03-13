@@ -1,14 +1,8 @@
 import styled from "styled-components";
+import { HeaderFooterShared } from "../../../utils/globalStyles";
 
-export const Container = styled.header`
+export const Container = styled(HeaderFooterShared).attrs({ as: 'header' })`
 background-color: var(--bg-header);
-width: 100%;
-height: 60px;
-padding-inline: var(--padding-lateral);
-display: flex;
-align-items: center;
-justify-content: space-between;
-user-select: none;
 
 > .logo-img {
     width: 40px; 
