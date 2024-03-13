@@ -1,5 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
+export const flexCenter = `
+display: flex;
+justify-content: center;
+align-items: center;
+`;
+
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
@@ -27,9 +33,6 @@ ol li {
   --vermelho: #DB0007;  
   --cinza-claro: #f9f9f9;
 
-  --shadow-hover: rgba(0, 0, 0, .3);
-  --border-light-gray: var(--cinza-claro);
-
   --bg-header: var(--branco);
   --bg-body: var(--branco);
   --bg-home: var(--branco);
@@ -38,10 +41,10 @@ ol li {
   --bg-footer: var(--branco);
   --bg-border-color: rgba(256, 256, 256, .2);
 
-  --bg-btn-primary: var(--mostarda);
+  --bg-btn-primary: var(--amarelo);
   --bg-btn-primary-hover: var(--vermelho);
 
-  --border-radius-sm: 5px;
+  --border-radius-sm: 8px;
   --border-radius-md: 10px;
 
   --font-family-primary: 'inter', sans-serif;
@@ -49,8 +52,8 @@ ol li {
   --font-color-secondary: var(--amarelo);
   --font-color-text: var(--mostarda);
 
-  --font-color-header: var(--font-color-primary);
   --btn-font-color: var(--preto);
+  --btn-font-color-hover: var(--branco);
 
   --padding-lateral: 40px;
   --padding-lateral-mobile: 20px;

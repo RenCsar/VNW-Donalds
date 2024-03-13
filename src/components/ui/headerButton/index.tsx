@@ -1,8 +1,14 @@
-const HeaderButton = () => {
-    return (
-        <div>
+import { THeaderButtonProps } from "../../../utils/types";
+import { ButtonSt } from "./HeaderButton.Styled";
 
-        </div>
+const HeaderButton = ({ texto, img, background }: THeaderButtonProps) => {
+    return (
+        <ButtonSt background={background}>
+            <div className="container-geral">
+                <p>{texto}</p>
+                <img src={img} alt="button-icon" />
+            </div>
+        </ButtonSt>
     )
 }
 
