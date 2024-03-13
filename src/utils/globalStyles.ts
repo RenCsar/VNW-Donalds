@@ -31,7 +31,7 @@ ol li {
   --amarelo: #FFC72C;
   --mostarda: #FEB706;
   --vermelho: #DB0007;  
-  --cinza-claro: #f9f9f9;
+  --cinza-claro: rgba(0, 0, 0, 0.4);
 
   --bg-header: var(--branco);
   --bg-body: var(--branco);
@@ -39,7 +39,6 @@ ol li {
   --bg-section-banner: var(--amarelo);
   --bg-section-promocao: var(--mostarda);
   --bg-footer: var(--branco);
-  --bg-border-color: rgba(256, 256, 256, .2);
 
   --bg-btn-primary: var(--amarelo);
   --bg-btn-primary-hover: var(--vermelho);
@@ -57,11 +56,8 @@ ol li {
 
   --padding-lateral: 40px;
   --padding-lateral-mobile: 20px;
-  --padding-top-header: 70px;
   --margin-sm: 20px;
   --margin-md: 50px;
-
-  --header-height: 70px;
 
   --transition: .95s;
 }
