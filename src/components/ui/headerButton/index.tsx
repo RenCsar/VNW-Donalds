@@ -6,7 +6,12 @@ const HeaderButton = ({ texto, img, background }: THeaderButtonProps) => {
         <ButtonSt background={background}>
             <div className="container-geral">
                 <p>{texto}</p>
-                <img src={img} alt="button-icon" />
+                {
+                    img ?
+                        <img src={img} alt="button-icon" />
+                        :
+                        ''
+                }
             </div>
         </ButtonSt>
     )

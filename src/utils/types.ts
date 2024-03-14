@@ -4,5 +4,5 @@ export type TButtonStStyledProps = {
 
 export type THeaderButtonProps = TButtonStStyledProps & {
     texto: string;
-    img: string;
+    img?: string;
 }

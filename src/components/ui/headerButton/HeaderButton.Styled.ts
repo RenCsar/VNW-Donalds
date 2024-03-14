@@ -22,5 +22,4 @@ transition: var(--transition);
     flex-direction: ${props => props.background == "branco"? 'row-reverse' : 'row'};
     font-weight: ${props => props.background == "branco"? 'normal' : 'bold'};
 }
-
 `
