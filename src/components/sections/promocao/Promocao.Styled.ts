@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 100%;
   padding: 60px var(--padding-lateral);
   background-color: var(--bg-section-promocao);
+  min-height: 100vh;
 
   .text-container {
     width: 100%;

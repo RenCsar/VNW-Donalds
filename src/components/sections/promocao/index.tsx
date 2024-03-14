@@ -19,7 +19,7 @@ const Promocao = () => {
             </div>
             <div className="card-container">
                 {
-                    promocoes.map((i: any, index: number) =>
+                    promocoes.map((i: { img: string; texto: string; }, index: number) =>
                         <CardPromo key={index} item={i} />
                     )
                 }

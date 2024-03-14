@@ -3,10 +3,11 @@ import { flexCenter } from "../../../utils/globalStyles";
 
 export const Container = styled.div`
   width: 100%;
-  min-height: calc(100vh - 60px);
+  min-height: 100vh;
   padding-inline: var(--padding-lateral);
   background-color: var(--bg-section-banner);
   padding-block: 30px;
+  margin-top: 60px;
 
   > .layout-container {
     ${flexCenter}

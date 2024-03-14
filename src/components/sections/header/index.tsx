@@ -18,7 +18,7 @@ const Header = () => {
             <div className="btn-container">
                 {
                     buttons.map((button: THeaderButtonProps) =>
-                        <HeaderButton texto={button.texto} img={button.img} background={button.background} />
+                        <HeaderButton texto={button.texto} img={button.img} background={button.background} key={button.background}/>
                     )
                 }
             </div>

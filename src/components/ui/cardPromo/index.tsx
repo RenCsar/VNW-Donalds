@@ -1,7 +1,8 @@
+import { TCardPromoProps } from "../../../utils/types";
 import HeaderButton from "../headerButton";
 import { Container } from "./CardPromo.Styled";
 
-const CardPromo = ({ item }: any) => {
+const CardPromo = ({ item }: TCardPromoProps) => {
     return (
         <Container>
             <img src={item.img} alt="card-imagem" />
