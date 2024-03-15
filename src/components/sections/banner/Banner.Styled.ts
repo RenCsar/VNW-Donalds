@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { flexCenter } from "../../../utils/globalStyles";
+import { flexCenter, titleStyles } from "../../../utils/globalStyles";
 
 export const Container = styled.div`
   width: 100%;
@@ -18,15 +18,7 @@ export const Container = styled.div`
       width: 300px;
     }
 
-    > h1 {
-      color: var(--font-color-text);
-      width: 400px;
-      font-size: 38px;
-
-      > span {
-        color: var(--font-color-secondary);
-      }
-    }
+    ${titleStyles}
   }
 
   > .itens-container {

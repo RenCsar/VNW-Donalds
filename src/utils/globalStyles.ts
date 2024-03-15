@@ -32,6 +32,7 @@ ol li {
   --bg-home: var(--branco);
   --bg-section-banner: var(--amarelo);
   --bg-section-promocao: var(--mostarda);
+  --bg-error: var(--mostarda);
   --bg-footer: var(--branco);
 
   --bg-btn-primary: var(--amarelo);
@@ -81,6 +82,18 @@ export const flexCenter = `
 display: flex;
 justify-content: center;
 align-items: center;
+`;
+
+export const titleStyles = `
+> h1 {
+  color: var(--font-color-text);
+  width: 400px;
+  font-size: 38px;
+
+  > span {
+    color: var(--font-color-secondary);
+  }
+}
 `;
 
 export const HeaderFooterShared = styled.div`
