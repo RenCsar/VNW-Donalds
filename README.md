@@ -2,14 +2,14 @@
 
 <br />
 <div align="center">
-  <a href="https:">
+  <a href="https://vnw-donalds.vercel.app/">
     <img align="center" width="170" height="130" src="./src/assets/banner-branco.png">
   </a>
   <h1>VNW - Donald's</h1>
 </div>
 
 <p align="center">Saboreie nossos lanches de alta performance: tão eficientes quanto um algoritmo bem otimizado,</br> tão deliciosos quanto uma função recursiva de sabor!</p>
-<p align="center">Acesse o site da <a href="https:">VNW - Donald's</a>.</p>
+<p align="center">Acesse o site da <a href="https://vnw-donalds.vercel.app/">VNW - Donald's</a>.</p>
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
