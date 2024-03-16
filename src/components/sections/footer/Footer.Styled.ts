@@ -26,4 +26,15 @@ export const Container = styled(HeaderFooterShared).attrs({ as: "footer" })`
       cursor: pointer;
     }
   }
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    gap: 15px;
+
+    > .btn-container {
+      gap: 10px;
+    }
+  }
 `;
