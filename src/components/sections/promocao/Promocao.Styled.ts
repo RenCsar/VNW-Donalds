@@ -23,4 +23,12 @@ export const Container = styled.div`
     justify-content: center;
     gap: 50px;
   }
+
+  @media (max-width: 800px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
 `;
