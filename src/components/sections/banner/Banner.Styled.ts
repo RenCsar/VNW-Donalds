@@ -37,4 +37,43 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 800px) {
+    > .layout-container {
+      flex-direction: column-reverse;
+      gap: 30px;
+      align-items: center;
+
+      > h1 {
+        width: 100%;
+        text-align: center;
+      }
+
+      > img {
+        width: 200px;
+      }
+    }
+
+    .itens-container {
+      gap: 40px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    margin-top: 80px;
+    > .layout-container {
+
+      > h1 {
+        font-size: 30px;
+      }
+
+      > img {
+        width: 180px;
+      }
+    }
+
+    .itens-container {
+      gap: 10px;
+    }
+  }
 `;
