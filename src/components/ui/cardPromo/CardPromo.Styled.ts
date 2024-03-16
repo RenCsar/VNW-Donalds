@@ -30,4 +30,8 @@ export const Container = styled.div`
     width: 120px;
     height: 30px;
   }
+
+  @media (max-width: 350px){
+    width: 270px;
+  }
 `;
