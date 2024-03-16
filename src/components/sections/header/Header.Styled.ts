@@ -14,4 +14,15 @@ export const Container = styled(HeaderFooterShared).attrs({ as: "header" })`
     display: flex;
     gap: 30px;
   }
+
+  @media (max-width: 500px) {
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    > .btn-container {
+      gap: 5px;
+    }
+  }
 `;
