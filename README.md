@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://vnw-donalds.vercel.app/">
-    <img align="center" width="170" height="130" src="./src/assets/banner-branco.png">
+    <img align="center" width="100" height="80" src="./public/logo.svg">
   </a>
   <h1>VNW - Donald's</h1>
 </div>
