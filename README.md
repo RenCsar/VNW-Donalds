@@ -25,7 +25,7 @@
 
 <h1 align="center">  
   <p align="center">
-  <img width="200" height="400" src="https://i.imgur.com/6D1FSbZ.gif"><br><br>
+  <img width="200" height="400" src="./src/assets/donalds.gif"><br><br>
   <img width="800" height="400" src="./src/assets/home.png">
   <img width="800" height="400" src="./src/assets/erro.png">
 </p>
